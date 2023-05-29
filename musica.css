@@ -10,12 +10,11 @@ body{
     width: 100%;
     height: 60px;
     background-color: rgb(101, 197, 221);
-    text-align: center;
-    font-size: 48px;
+    
+    font-size: 28px;
 }
 .conteudo-musica{
     width: 100%;
-    
 }
 .rodape{
     width: 100%;
@@ -51,7 +50,13 @@ body{
         height: 120px;
         background-color: rgb(186, 213, 236);
         color: black;
-        font-size: 64px;
+        font-size: 48px;
+    }
+    .img-ini{
+        width: 50%;
+    }
+    .desc-solo{
+        display: grid;
     }
 }
 
@@ -60,8 +65,12 @@ body{
         height: 120px;
         background-color: rgb(53, 70, 85);
         color: black;
-        font-size: 72px;
+        font-size: 48px;
     }
-    .img-ini {
-        width:50%
+    .img-ini{
+        width: 50%;
+    }
+    .desc-solo{
+    display: grid;
+    }
 }

@@ -3,30 +3,41 @@
     padding: 0;
 }
 
+.conteudo{
+display: grid;
+grid-template-columns: 20% 20% 60% 10%;
+justify-content: center;
+}
+
 .meu-site{
  display: grid;
+ grid-template-columns: 20% 20% 60% 10%;
 grid-template-areas: 
-"menu menu menu" 
-"lado principal principal" 
-"lado rodape rodape";
+"menu menu menu " 
+"lado principal principal " 
+" rodape rodape rodape";
 }
 
 .menu{
  height:10vh ;
  background-color: rgb(248, 255, 190);
+ grid-area: menu;
 }
 
 .lado{
     height:20vh ;
     background-color: rgb(186, 248, 194);
+    grid-area:lado;
 }
 
 .principal{
     height:60vh ;
     background-color: rgb(182, 242, 252);
+    grid-area: principal;
 }
 
 .rodape{
     height:10vh ;
     background-color: rgb(247, 186, 186);
+    grid-area: rodape;
 }
